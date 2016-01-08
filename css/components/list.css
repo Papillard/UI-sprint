@@ -1,0 +1,31 @@
+.product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  transition: all 0.3s ease;
+  border-radius: 3px;
+}
+
+.product:hover {
+  background: rgb(240, 240, 240);
+}
+
+.product:hover .product-upvote {
+  font-size: 25px;
+}
+
+.product-upvote {
+  font-size: 20px;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.product-description {
+  flex: 1 0 auto;
+  padding: 20px;
+}
+.product-controls a {
+  font-size: 15px;
+  color: #CCCCCC;
+}
